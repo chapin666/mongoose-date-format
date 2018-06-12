@@ -1,13 +1,13 @@
 # mongoose-date-format
 
-## INSTALL
+### INSTALL
 ```
 npm install mongoose-date-format --save
 ```
 
-## USE
+### USE
 
-### define schema:
+#### 1. define schema:
 ```
 'use strict';
 
@@ -24,7 +24,7 @@ module.exports = app => {
 };
 
 ```
-### added plugin
+#### 2. added plugin:
 ```
 'use strict';
 
@@ -43,7 +43,7 @@ module.exports = app => {
 };
 ```
 
-### response format
+#### 3. response format:
 ```
 {
   username: 'test',
