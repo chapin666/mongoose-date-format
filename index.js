@@ -1,7 +1,6 @@
 'use strict';
 
 const _ = require('lodash');
-const mongoose = require('mongoose');
 const moment = require('moment');
 
 function findPaths(schema) {
